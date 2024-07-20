@@ -3,7 +3,7 @@ import { Github, Instagram, Linkedin, Mail, Twitter } from "lucide-react";
 
 export default function Footer() {
     return (
-        <div className="container sticky top-full flex items-center justify-between text-primary p-4">
+        <div className="container sticky top-full flex items-center justify-between text-primary">
             <p className="text-sm">&copy;2024 leo</p>
             <div className="flex flex-col items-center justify-center gap-3">
             <ul className="flex gap-3 items-center justify-center">
