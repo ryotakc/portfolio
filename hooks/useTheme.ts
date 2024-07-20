@@ -1,6 +1,5 @@
-'use client';
+"use client";  // これを追加
 
-// hooks/useTheme.ts
 import { useEffect, useState } from 'react';
 
 export function useTheme() {
