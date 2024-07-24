@@ -13,7 +13,7 @@ export default function HoverBorderGradient({
     return (
         <a href={link} className="flex justify-center text-center">
             <HoverBorderGradientComponent
-            containerClassName="rounded-full"
+            containerClassName="rounded-[15px]"
             as="button"
             className="dark:bg-black bg-white text-black dark:text-white flex items-center space-x-2"
             >

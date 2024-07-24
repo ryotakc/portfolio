@@ -60,9 +60,6 @@ export default function RootLayout({
                   </Button>
                 </li>
               ))}
-              <div className="hover:scale-105 transition-transform duration-300">
-                <CommandHome />
-              </div>
               <div className="hidden sm:block">
                 <ModeToggle />
               </div>
@@ -76,13 +73,11 @@ export default function RootLayout({
             {children}
           </main>
 
-
           <footer>
             <Footer />
           </footer>
         </ThemeProvider>
       </body>
-      
     </html>
   );
 }

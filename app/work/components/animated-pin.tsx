@@ -36,7 +36,7 @@ export function AnimatedPin() {
           {hasMounted ? (
             <div className="flex flex-1 w-full rounded-lg mt-4 relative overflow-hidden">
               <Image
-                src="/projectsPhoto/project1.jpg" // ここに画像のパスを指定
+                src="/projectsPhoto/project1.jpg" 
                 alt="pic1"
                 layout="fill"
                 objectFit="cover" // 画像が要素にフィットするように指定
